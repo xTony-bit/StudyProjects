@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+			"use strict";
+
+			let login = prompt("Введите ваш логин","");
+
+			
+			if (login == "Админ") {
+				let pass = prompt("Введите пароль","");
+			 
+				if (pass == "Я главный") {
+					
+					alert("Здравствуйте!");
+				
+				} else if (pass == null || pass == "") {
+					
+					alert("Отменено!");
+				} else {
+					alert("Неверный пароль!");
+				}
+
+			} else if ( login == null || login == "") {
+				alert("Отменено!");
+			} else {
+				alert ( " Я вас не знаю!");
+			}
+				
+
+
+
+
+
+		
+
+
+
+
+
+	</script>
+	
+</body>
+</html>
